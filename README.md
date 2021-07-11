@@ -2,8 +2,8 @@
   <br />
   <p>
     <p float="left">
+      <img src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/ezgif.com-gif-maker.gif" width="200px" /> 
       <img src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/cli_pages-removebg-preview%20(1).png" width="100" />
-      <img src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/ezgif.com-gif-maker.gif" width="100" /> 
     </p>
   </p>
   <br />
