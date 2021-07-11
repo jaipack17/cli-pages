@@ -14,7 +14,10 @@
 ## About
 
 [cli-pages](https://www.npmjs.com/package/ruxe) is used to easily create pages for your command line interfaces and apps in no time! It has all the features you possibly need!
-
+<br/><br/>
+  <p align="center">
+    <img style="left:70" src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/ezgif.com-gif-maker%20(1).gif" width="506" alt="logo" />
+  </p>
 
 ## Installation
 
