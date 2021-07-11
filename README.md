@@ -26,7 +26,77 @@ npm install cli-pages
 ```
 ## Example Usage
 
-**Examples can be Found [here](https://github.com/jaipack17/cli-pages/tree/main/examples)**
+<br/>
+
+**Creation**
+```js
+const { Book } = require("cli-pages");
+
+let pages = new Book([
+    {
+        title: "Welcome to my app!",
+        content: "This app does a lot of stuff! It can help you build a rocket!",
+        footer: "Hope you enjoy!"
+    },
+    {
+        title: "This is Amazing!",
+        content: "epic!",
+        footer: "Hope you understood!"
+    },
+    {
+        title: "Thank you!",
+        content: "Thank you for using my app! I really appreciate it!",
+        footer: "<3"
+    }
+]);
+
+/*
+
+OR
+
+let pages = new Book();
+
+pages.addPage({
+    title: "Welcome to my app!",
+    content: "This app does a lot of stuff! It can help you build a rocket!",
+    footer: "Hope you enjoy!"
+});
+
+...
+
+*/
+```
+
+**Displaying the pages in the terminal**
+```
+const { Book } = require("cli-pages");
+
+let pages = new Book([
+    {
+        title: "Welcome to my app!",
+        content: "This app does a lot of stuff! It can help you build a rocket!",
+        footer: "Hope you enjoy!"
+    },
+    {
+        title: "This is Amazing!",
+        content: "epic!",
+        footer: "Hope you understood!"
+    },
+    {
+        title: "Thank you!",
+        content: "Thank you for using my app! I really appreciate it!",
+        footer: "<3"
+    }
+]);
+
+pages.open(); // displays the pages in the terminal
+
+setTimeout(function(){
+   pages.close(); // ends the page session and stops displaying the code after 60 seconds.
+}, 60000)
+```
+
+#### **Examples on how to edit, remove pages, get number of pages, set custom configurations can be found [here](https://github.com/jaipack17/cli-pages/tree/main/examples)**
 
 ## 🤝 Contribution
 
