@@ -1,0 +1,30 @@
+{
+  "name": "cli-pages",
+  "version": "1.0.9",
+  "description": "pagination for command line apps",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "text",
+    "page",
+    "pages",
+    "pagination",
+    "prompts",
+    "book",
+    "formatting",
+    "command-line-tool",
+    "cli-app",
+    "styling",
+    "books"
+  ],
+  "author": "jaipack17",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "readline-utils": "^2.2.3",
+    "ruxe": "^1.2.4"
+  }
+}
