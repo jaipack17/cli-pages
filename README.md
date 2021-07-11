@@ -302,6 +302,32 @@ setTimeout(function(){
 }, 60000)
 ```
 
+### `.setCloseKey()`
+
+Parameters: 
+* type: string
+* structure: key: string
+
+```js
+const { Book } = require("cli-pages"); 
+
+let pages = new Book();
+
+pages.addPage({
+  title: "hello!",
+  content: "cli-pages is the best!",
+  footer: "Thanks!"
+});
+
+pages.addPage({
+  title: "sup!",
+  content: "cli-pages is the worst!",
+  footer: "Nope!"
+});
+
+pages.setCloseKey("exit"); // 'exit' here will be used to close the book on prompt
+```
+
 
 ## 🤝 Contribution
 
