@@ -3,7 +3,7 @@
   <p align="center">
 <a href="https://www.npmjs.com/package/cli-pages"><img style="left:70" src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/cli_pages-removebg-preview%20(1).png" width="606" alt="logo" /></a>
   </p>
-  
+  <img align="center" style="margin-top:-4%;" src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/ezgif.com-gif-maker.gif" width="400" alt="ruxe" />
   <br/>
   <p>
 <div align="center">
