@@ -1,7 +1,7 @@
 
   <br />
   <p>
-    <a href="https://www.npmjs.com/package/cli-pages"><img style="margin-left:40%" src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/cli_pages-removebg-preview%20(1).png" width="606" alt="ruxe" /></a>
+    <a href="https://www.npmjs.com/package/cli-pages"><img style="margin-left:400" src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/cli_pages-removebg-preview%20(1).png" width="606" alt="ruxe" /></a>
   </p>
   <p><img style="margin-top:-4%" src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/ezgif.com-gif-maker.gif" width="400" alt="ruxe" />
   </p>
