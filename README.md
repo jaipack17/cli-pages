@@ -228,6 +228,80 @@ pages.addPage({
 pages.hasPage(2); // returns true
 pages.hasPage(6); // returns false
 ```
+### `.size()`
+
+Parameters: none
+
+```js
+const { Book } = require("cli-pages"); 
+
+let pages = new Book();
+
+pages.addPage({
+  title: "hello!",
+  content: "cli-pages is the best!",
+  footer: "Thanks!"
+});
+
+pages.addPage({
+  title: "sup!",
+  content: "cli-pages is the worst!",
+  footer: "Nope!"
+});
+
+console.log(pages.size()); // prints 2
+```
+### `.open()`
+
+Parameters: none
+
+```js
+const { Book } = require("cli-pages"); 
+
+let pages = new Book();
+
+pages.addPage({
+  title: "hello!",
+  content: "cli-pages is the best!",
+  footer: "Thanks!"
+});
+
+pages.addPage({
+  title: "sup!",
+  content: "cli-pages is the worst!",
+  footer: "Nope!"
+});
+
+pages.open(); // displays the book in the console
+```
+### `.close()`
+
+Parameters: none
+
+```js
+const { Book } = require("cli-pages"); 
+
+let pages = new Book();
+
+pages.addPage({
+  title: "hello!",
+  content: "cli-pages is the best!",
+  footer: "Thanks!"
+});
+
+pages.addPage({
+  title: "sup!",
+  content: "cli-pages is the worst!",
+  footer: "Nope!"
+});
+
+pages.open(); // displays the book in the console
+
+setTimeout(function(){
+   pages.close(); // used to close the book. here it closes after 60 seconds of use
+}, 60000)
+```
+
 
 ## 🤝 Contribution
 
