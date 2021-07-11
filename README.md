@@ -13,7 +13,7 @@
 
 ## About
 
-[cli-pages](https://www.npmjs.com/package/ruxe) is used to easily create pages for your command line interfaces and apps. It has all the features you possibly need!
+[cli-pages](https://www.npmjs.com/package/ruxe) is used to easily create pages for your command line interfaces and apps in no time! It has all the features you possibly need!
 
 
 ## Installation
