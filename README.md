@@ -5,7 +5,7 @@
     <a href="https://www.npmjs.com/package/cli-pages"><img style="margin-right:20%" src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/cli_pages-removebg-preview%20(1).png" width="546" alt="clipageslogo" /></a>
     </div>
     <div align="left">
-    <a href="https://www.npmjs.com/package/cli-pages"><img style="margin-right:20%" src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/ezgif.com-gif-maker.gif" width="546" alt="clipageslogo" /></a>
+    <a href="https://www.npmjs.com/package/cli-pages"><img style="margin-top:0%" src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/ezgif.com-gif-maker.gif" width="546" alt="clipageslogo" /></a>
     </div>
   </p>
   <br />
