@@ -37,7 +37,7 @@ npm install cli-pages
 
 <br/>
 
-**Creation**
+## Creation
 ```js
 const { Book } = require("cli-pages");
 
@@ -59,7 +59,7 @@ let pages = new Book([
     }
 ]);
 ```
-**OR**
+### OR
 ```js
 let pages = new Book();
 
@@ -72,7 +72,7 @@ pages.addPage({
 
 ```
 
-**Displaying the pages in the terminal**
+### Displaying the pages in the terminal
 ```js
 const { Book } = require("cli-pages");
 
@@ -101,7 +101,7 @@ setTimeout(function(){
 }, 60000)
 ```
 
-#### **Examples on how to edit, remove pages, get number of pages, set custom configurations can be found [here](https://github.com/jaipack17/cli-pages/tree/main/examples)**
+### **Examples on how to edit, remove pages, get number of pages, set custom configurations can be found [here](https://github.com/jaipack17/cli-pages/tree/main/examples)**
 
 # Documentation
 
