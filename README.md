@@ -49,11 +49,9 @@ let pages = new Book([
         footer: "<3"
     }
 ]);
-
-/*
-
-OR
-
+```
+**OR**
+```js
 let pages = new Book();
 
 pages.addPage({
@@ -61,14 +59,12 @@ pages.addPage({
     content: "This app does a lot of stuff! It can help you build a rocket!",
     footer: "Hope you enjoy!"
 });
-
 ...
 
-*/
 ```
 
 **Displaying the pages in the terminal**
-```
+```js
 const { Book } = require("cli-pages");
 
 let pages = new Book([
