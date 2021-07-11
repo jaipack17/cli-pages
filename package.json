@@ -1,6 +1,6 @@
 {
   "name": "cli-pages",
-  "version": "1.0.9",
+  "version": "1.0.18",
   "description": "pagination for command line apps",
   "main": "src/index.js",
   "scripts": {
@@ -24,7 +24,9 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.1",
+    "eslint-plugin-import": "^2.23.4",
     "readline-utils": "^2.2.3",
     "ruxe": "^1.2.4"
-  }
+  },
+  "repository": "https://github.com/jaipack17/cli-pages"
 }

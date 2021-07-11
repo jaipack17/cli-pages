@@ -15,7 +15,7 @@ class Book {
      * @param {object[]} pages
      */
 
-    constructor(pages) {
+    constructor (pages) {
         this.pages = [];
         this.opened = false;
         this.closeKey = "";
@@ -170,11 +170,11 @@ class Book {
             }
 
             rl.question(chalk.cyan(_this.prompt), ans => {
-                if (ans.toLowerCase() == "n") {
+                if (ans.toLowerCase() == config.nextKey) {
                     send(_this, _this.pages[i++], i++, ans.toLowerCase(), false);
                     return;
                 } 
-                else if (ans.toLowerCase() == "p") {
+                else if (ans.toLowerCase() == config.previousKey) {
                     send(_this, _this.pages[i--], i--, ans.toLowerCase(), false);
                     return;
                 }
@@ -195,7 +195,7 @@ class Book {
      * @param {string} key 
      */
 
-    setCloseKey(key) {
+    setCloseKey (key) {
         if (key == "n" || key == "p") throw new TypeError("cannot set close key as 'n' or 'p'");
         this.closeKey = key.toString();
         let base = "\nPage (n/p";

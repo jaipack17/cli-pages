@@ -1,4 +1,4 @@
 module.exports = {
     nextKey: "n",
-    previousKey: "q"
+    previousKey: "p"
 }
