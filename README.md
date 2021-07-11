@@ -151,6 +151,32 @@ pages.addPage({
 });
 ```
 
+### `.removePage()`
+
+Parameters: 
+* type: number
+* structure: page-number: number
+
+```js
+const { Book } = require("cli-pages"); 
+
+let pages = new Book();
+
+pages.addPage({
+  title: "hello!",
+  content: "cli-pages is the best!",
+  footer: "Thanks!"
+});
+
+pages.addPage({
+  title: "sup!",
+  content: "cli-pages is the worst!",
+  footer: "Nope!"
+});
+
+pages.removePage(2); // removes the 2nd page [titled 'sup!']
+```
+
 ## 🤝 Contribution
 
 For contributing to this project, fork the repository [here](https://github.com/jaipack17/cli-pages), make the changes and open a pull request! Pull requests will be reviewed before being merged.
