@@ -107,8 +107,15 @@ setTimeout(function(){
 
 ### **Examples on how to edit, remove pages, get number of pages, set custom configurations can be found [here](https://github.com/jaipack17/cli-pages/tree/main/examples)**
 
-# Documentation
+## Documentation
 
+Pages are created by using the 'Book' class that is included in this package.
+
+```js
+const { Book } = require("cli-pages"); // importing the class from the package
+
+let pages = new Book(); // creating our pages
+```
 
 ## 🤝 Contribution
 
