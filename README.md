@@ -102,6 +102,9 @@ setTimeout(function(){
 
 #### **Examples on how to edit, remove pages, get number of pages, set custom configurations can be found [here](https://github.com/jaipack17/cli-pages/tree/main/examples)**
 
+# Documentation
+
+
 ## 🤝 Contribution
 
 For contributing to this project, fork the repository [here](https://github.com/jaipack17/cli-pages), make the changes and open a pull request! Pull requests will be reviewed before being merged.
