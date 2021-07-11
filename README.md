@@ -1,4 +1,3 @@
-
   <br />
   <p align="center">
 <a href="https://www.npmjs.com/package/cli-pages"><img style="left:70" src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/cli_pages-removebg-preview%20(1).png" width="606" alt="logo" /></a>
@@ -22,6 +21,14 @@
   * [All Examples](#examples-on-how-to-edit-remove-pages-get-number-of-pages-set-custom-configurations-can-be-found-here)
 * [Documentation](#documentation)
   * [Initializing](#initializing)
+  * [Add page](#addpage)
+  * [Remove page](#removepage)
+  * [Edit page](#editpage)
+  * [Has page](#haspage)
+  * [Book size](#size)
+  * [Display book](#open)
+  * [Close book](#close)
+  * [Set close key](#setclosekey)
 * [Contribution](#-contribution)
 * [Bugs](#-bugs) 
 
