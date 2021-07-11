@@ -13,7 +13,7 @@
 
 ## About
 
-[cli-pages](https://www.npmjs.com/package/ruxe) is used to easily create pages for your command line interfaces and apps in no time! It has all the features you possibly need!
+[cli-pages](https://www.npmjs.com/package/ruxe) is used to easily create pages for your command line interfaces and apps in no time! It has all the features you possibly need! pages can be toggled by using custom words like 'n' or 'next' and 'p' or 'previous' or any other custom word. Custom words for exiting the book can also be set using `.setCloseKey()` function available in the 'Book' class.
 <br/><br/>
   <p align="center">
     <img style="left:70" src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/ezgif.com-gif-maker%20(1).gif" width="806" alt="logo" />
