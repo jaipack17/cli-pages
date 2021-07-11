@@ -24,6 +24,10 @@
 ```sh-session
 npm install cli-pages
 ```
+## Example Usage
+
+**Examples can be Found [here](https://github.com/jaipack17/cli-pages/tree/main/examples)**
+
 ## 🤝 Contribution
 
 For contributing to this project, fork the repository [here](https://github.com/jaipack17/cli-pages), make the changes and open a pull request! Pull requests will be reviewed before being merged.
