@@ -1,7 +1,7 @@
 <div align="right">
   <br />
   <p>
-    <a href="https://www.npmjs.com/package/cli-pages"><img style="margin-right:10%" src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/cli_pages-removebg-preview%20(1).png" width="546" alt="clipageslogo" /></a>
+    <a href="https://www.npmjs.com/package/cli-pages"><img style="margin-right:20%" src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/cli_pages-removebg-preview%20(1).png" width="546" alt="clipageslogo" /></a>
   </p>
   <br />
 <!--   <p>
