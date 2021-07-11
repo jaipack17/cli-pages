@@ -21,6 +21,7 @@
   * [Diplaying the Pages in The Terminal](#displaying-the-pages-in-the-terminal)
   * [All Examples](#examples-on-how-to-edit-remove-pages-get-number-of-pages-set-custom-configurations-can-be-found-here)
 * [Documentation](#documentation)
+  * [Initializing](#initializing)
 * [Contribution](#-contribution)
 * [Bugs](#-bugs) 
 
@@ -109,12 +110,45 @@ setTimeout(function(){
 
 ## Documentation
 
-Pages are created by using the 'Book' class that is included in this package.
+Pages are created by using the `'Book'` class that is included in this package.
+
+### Initializing
 
 ```js
 const { Book } = require("cli-pages"); // importing the class from the package
 
 let pages = new Book(); // creating our pages
+```
+
+### `.addPage()`
+
+```js
+const { Book } = require("cli-pages"); 
+
+let pages = new Book([
+   {
+      title: "hello!",
+      content: "cli-pages is the best!",
+      footer: "Thanks!"
+   }
+]);
+```
+There is an alternative to the above code! Use the `.addPage()` function
+
+Parameters: 
+* type: object
+* structure: { title: string, content: string, footer: string | undefined }
+
+```js
+const { Book } = require("cli-pages"); 
+
+let pages = new Book();
+
+pages.addPage({
+  title: "hello!",
+  content: "cli-pages is the best!",
+  footer: "Thanks!"
+});
 ```
 
 ## 🤝 Contribution
