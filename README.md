@@ -14,6 +14,8 @@
 ### Contents
 
 * [About](#about)
+* [Installation](#installation)
+* [Example Usage](#example usage)
 
 ## About
 
