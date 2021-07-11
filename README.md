@@ -20,6 +20,7 @@
   * [Creation ~ 2](#or)
   * [Diplaying the Pages in The Terminal](#displaying-the-pages-in-the-terminal)
   * [All Examples](#examples-on-how-to-edit-remove-pages-get-number-of-pages-set-custom-configurations-can-be-found-here)
+* [Documentation](#documentation)
 * [Contribution](#-contribution)
 * [Bugs](#-bugs) 
 
