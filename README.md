@@ -16,6 +16,7 @@
 * [About](#about)
 * [Installation](#installation)
 * [Example Usage](#example-usage)
+  * [All Examples](#examples-on-how-to-edit-remove-pages-get-number-of-pages-set-custom-configurations-can-be-found-here)
 * [Contribution](#-contribution)
 * [Bugs](#-bugs) 
 
