@@ -16,6 +16,8 @@
 * [About](#about)
 * [Installation](#installation)
 * [Example Usage](#example-usage)
+* [Contribution](#contribution)
+* [Bugs](#bugs) 
 
 ## About
 
