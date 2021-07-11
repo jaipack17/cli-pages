@@ -8,6 +8,8 @@
 <div align="center">
     <a href="https://www.npmjs.com/package/cli-pages"><img src="https://img.shields.io/npm/v/cli-pages.svg?maxAge=3600" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/cli-pages"><img src="https://img.shields.io/npm/dt/cli-pages.svg?maxAge=3600" alt="NPM downloads" /></a>
+    [![install size](https://packagephobia.now.sh/badge?p=cli-pages)](https://packagephobia.now.sh/result?p=cli-pages)
+
 </div>
   </p>
 
