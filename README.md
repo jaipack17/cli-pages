@@ -137,7 +137,7 @@ There is an alternative to the above code! Use the `.addPage()` function
 
 Parameters: 
 * type: object
-* structure: { title: string, content: string, footer: string | undefined }
+* structure: { title: string, content: any, footer: string | undefined }
 
 ```js
 const { Book } = require("cli-pages"); 
@@ -175,6 +175,32 @@ pages.addPage({
 });
 
 pages.removePage(2); // removes the 2nd page [titled 'sup!']
+```
+
+### `.editPage()`
+
+Parameters: 
+* type: number, object
+* structure: page-number, { title: string, content: any, footer: string | undefined }
+
+```js
+const { Book } = require("cli-pages"); 
+
+let pages = new Book();
+
+pages.addPage({
+  title: "hello!",
+  content: "cli-pages is the best!",
+  footer: "Thanks!"
+});
+
+pages.addPage({
+  title: "sup!",
+  content: "cli-pages is the worst!",
+  footer: "Nope!"
+});
+
+pages.editPage(1, { content: "this is the new content!" }); // edits content of the 1st page
 ```
 
 ## 🤝 Contribution
