@@ -202,6 +202,32 @@ pages.addPage({
 
 pages.editPage(1, { content: "this is the new content!" }); // edits content of the 1st page
 ```
+### `.hasPage()`
+
+Parameters: 
+* type: number
+* structure: page-number: number
+
+```js
+const { Book } = require("cli-pages"); 
+
+let pages = new Book();
+
+pages.addPage({
+  title: "hello!",
+  content: "cli-pages is the best!",
+  footer: "Thanks!"
+});
+
+pages.addPage({
+  title: "sup!",
+  content: "cli-pages is the worst!",
+  footer: "Nope!"
+});
+
+pages.hasPage(2); // returns true
+pages.hasPage(6); // returns false
+```
 
 ## 🤝 Contribution
 
