@@ -1,12 +1,10 @@
-<div>
+<div align="center">
   <br />
   <p>
-    <div align="right">
-    <a href="https://www.npmjs.com/package/cli-pages"><img style="margin-right:20%; float:right;" src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/cli_pages-removebg-preview%20(1).png" width="546" alt="clipageslogo" /></a>
-    </div>
-    <div align="left">
-    <a href="https://www.npmjs.com/package/cli-pages"><img style="margin-top:-10%; float: left;" src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/ezgif.com-gif-maker.gif" width="546" alt="clipageslogo" /></a>
-    </div>
+    <p float="left">
+      <img src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/cli_pages-removebg-preview%20(1).png" width="100" />
+      <img src="https://raw.githubusercontent.com/jaipack17/cli-pagees/main/assets/ezgif.com-gif-maker.gif" width="100" /> 
+    </p>
   </p>
   <br />
 <!--   <p>
