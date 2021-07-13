@@ -7,6 +7,7 @@
 <div align="center">
     <a href="https://www.npmjs.com/package/cli-pages"><img src="https://img.shields.io/npm/v/cli-pages.svg?maxAge=3600" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/cli-pages"><img src="https://img.shields.io/npm/dt/cli-pages.svg?maxAge=3600" alt="NPM downloads" /></a>
+    <a href="https://www.codefactor.io/repository/github/jaipack17/cli-pages"><img src="https://www.codefactor.io/repository/github/jaipack17/cli-pages/badge" alt="CodeFactor" /></a>
 </div>
   </p>
 
