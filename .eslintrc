@@ -1,4 +1,5 @@
 {
-    "javascript.showUnused": false,
-    "typescript.showUnused": false
+    "rules": {
+        "no-unused-vars": "off"
+    }
 }
