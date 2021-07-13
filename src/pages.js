@@ -2,7 +2,6 @@ const readline = require("readline");
 const chalk = require("chalk");
 const utils = require("readline-utils");
 const config = require("../config/default");
-const wrap = require("ruxe");
 
 const rl = readline.createInterface({
   input: process.stdin,
