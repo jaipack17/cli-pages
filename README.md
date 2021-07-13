@@ -10,6 +10,7 @@
     <a href="https://www.codefactor.io/repository/github/jaipack17/cli-pages"><img src="https://www.codefactor.io/repository/github/jaipack17/cli-pages/badge" alt="CodeFactor" /></a>
     <a href="https://github.com/jaipack17/cli-pages/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/github-contribute-black" alt="contribute" /></a>
     <a href="https://www.github.com/jaipack17/cli-pages/issues"><img src="https://img.shields.io/badge/issues-bugs-red" alt="issues" /></a>
+    <a href="https://github.com/jaipack17/cli-pages#documentation"><img src="https://img.shields.io/badge/docs-view-%23blue" alt="docs" /></a>
 </div>
   </p>
 
