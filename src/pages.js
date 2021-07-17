@@ -2,6 +2,7 @@ const readline = require("readline");
 const chalk = require("chalk");
 const utils = require("readline-utils");
 const config = require("../config/default");
+const wrap = require("ruxe");
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -18,7 +19,7 @@ class Book {
         this.pages = [];
         this.opened = false;
         this.closeKey = "";
-        this.prompt = `\nPage (${config.nextKey}/${config.previousKey}): `;
+        this.prompt = `Page (${config.nextKey}/${config.previousKey}): `;
 
         function check(input, _this) {
             if (!Array.isArray(input)) throw new TypeError("argument must be an array");
@@ -168,7 +169,7 @@ class Book {
                 console.info(text2Send);
             }
 
-            rl.question(chalk.cyan(_this.prompt), ans => {
+            rl.question(chalk.green(`\n[${i + 1}/${_this.size()}] - ${chalk.cyan(_this.prompt)}`), ans => {
                 if (ans.toLowerCase() == config.nextKey) {
                     send(_this, _this.pages[i++], i++, ans.toLowerCase(), false);
                     return;
@@ -197,7 +198,7 @@ class Book {
     setCloseKey (key) {
         if (key == "n" || key == "p") throw new TypeError("cannot set close key as 'n' or 'p'");
         this.closeKey = key.toString();
-        let base = "\nPage (n/p";
+        let base = "Page (n/p";
         base += `/${key}): `;
         this.prompt = base;
     }
