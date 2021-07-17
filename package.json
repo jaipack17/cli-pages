@@ -1,6 +1,6 @@
 {
   "name": "cli-pages",
-  "version": "1.2.2",
+  "version": "1.2.5",
   "description": "pagination for command line apps",
   "main": "src/index.js",
   "scripts": {
@@ -28,6 +28,5 @@
     "readline-utils": "^2.2.3",
     "ruxe": "^1.2.4"
   },
-  "repository": "https://github.com/jaipack17/cli-pages",
-  "examples": ""
+  "repository": "https://github.com/jaipack17/cli-pages"
 }
